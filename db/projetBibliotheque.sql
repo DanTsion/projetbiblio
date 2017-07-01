@@ -48,7 +48,7 @@ INSERT INTO `livre` (`idLivre`, `titre`, `auteur`, `editeur`, `dateDeParution`, 
 (2, 'Les Miserable', 'Victor Hugo', 'Lacroix', '1862-05-21', 'ISBN 978 0 3851 2168 5', 1),
 (3, 'notre dame de paris', 'Victor Hugo', 'Goselin', '1831-04-14', 'ISBN 978 0 3851 2168 7', 1),
 (4, 'Les Trois Mousquetaires', 'Alexandre Dumas', 'Baudry', '1844-05-07', 'ISBN 978 0 3851 2161 4', 1),
-(5, '20 000 Lieues sous les mers', 'Jules Verne', 'Goselin', '1841-04-05', 'ISBN 978 0 3851 2168 8', 0),
+(5, '20 000 Lieues sous les mers', 'Jules Verne', 'Goselin', '1841-04-05', 'ISBN 978 0 3851 2168 8', 1),
 (6, 'Germinal', 'Emile Zola', 'Gil Blas', '1885-04-21', 'ISBN 978 0 3851 2877 1', 1);
 
 
