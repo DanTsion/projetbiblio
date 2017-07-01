@@ -61,16 +61,7 @@ CREATE TABLE IF NOT EXISTS `emprunt` (
   PRIMARY KEY (`idEmprunt`),
   KEY `FK_ClientEmprunt` (`idClient`),
   KEY `FK_LivreEmprunt` (`idLivre`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 DEFAULT COLLATE=utf8_unicode_ci;
- 
-
-
-INSERT INTO `emprunt` (`idEmprunt`, `idClient`, `idLivre`, `dateEmprunt`) VALUES
-(1, 2, 2, '2017-06-30 17:28:47'),
-(2, 1, 3, '2017-06-30 17:44:02'),
-(3, 2, 5, '2017-06-30 18:01:36'),
-(4, 6, 6, '2017-06-30 18:03:38');
-
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 DEFAULT COLLATE=utf8_unicode_ci;
 
 
 DROP TRIGGER IF EXISTS `empruntLivre`;
