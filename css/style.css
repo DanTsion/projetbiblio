@@ -1,0 +1,38 @@
+input[type=text], input[type=date], input[type=email]
+{
+    border: 1px solid #a0a0a0;
+}
+.filter-table .quick 
+{
+    margin-left: 0.5em;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+.fitler-table .quick:hover
+{
+    text-decoration: underline;
+}
+td.alt 
+{
+    background-color: rgba(50, 110, 185, 0.4);
+}
+input[type=search]
+{
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../images/searchicon.png');
+    background-position: relative; 
+    background-size: 4%;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.btn-info
+{
+    background-color: purple;
+}
