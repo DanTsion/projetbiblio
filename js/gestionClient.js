@@ -62,5 +62,5 @@ $("#cancel").click(function() {
 $("#update #cancelBtn").click(function() {
     $(this).parent().parent().hide();
 });
-$("#listeClients").filterTable();
+$("#listeClients").filterTable({minRows: 0});
 });

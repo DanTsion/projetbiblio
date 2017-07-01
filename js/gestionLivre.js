@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $("#listeLivres").filterTable({minRows: 0});
     $(".btn-danger").click(function () 
     {
         var btnToDelete = $(this);
@@ -70,7 +71,6 @@ $(document).ready(function () {
     {
         $(this).parent().parent().hide();    
     });
-    $("#listeLivres").filterTable();
     $(".btn-info").click(function(){
         $("#empruntdiv").css("display", "block");
         var btnToBorrow = $(this);
