@@ -67,7 +67,7 @@ function verifIsbn(champ)
 function verifDateDeParution(champ)
 {
     var regex = /(0[1-9]|[1-2][0-9]|30|31)(\/)(0[1-9]|1[0-2])(\/)(1[0-9][0-9][0-9]|20[0-9][0-9])/;
-    if(champ.value=="")
+    if(!regex.test(champ.value))
     {
         $("#dateDeParution").css("border","1px solid red");
         $("#dateDeParutionError").html("* Veuillez entrer une date valide");
